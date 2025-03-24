@@ -1,0 +1,221 @@
+1) startcmd.bat
+
+2) ant -f integrator.xml
+
+Word to Dita-OT(XML_Files)
+--------------------------
+3) ant -f dita-ot-run-word2dita.xml
+
+Pdf Convert
+-----------
+@REM 4th cmd ref:
+***********************
+4) ant -Dargs.input= E:\Projects\r-suite\DITA\XML_Files\omicsdemopdf\IPJCEP-20\IPJCEP-20.ditamap -Doutput.dir=E:\Projects\r-suite\DITA\PDF_Files\omicsdemopdf -Dretain.topic.fo=yes -Dclean.temp=no -Dtranstype=omicsdemopdf
+
+
+@REM Existing plugin lists:
+**************************
+01) omicsacquiredpdf
+02) omicsagbirpdf
+03) omicsAgiAlpdf @REM R-Suite
+04) omicsalliedacademiespdf @REM R-Suite
+05) omicsamhsrpdf @REM Manual
+06) omicsaprpdf
+07) omicsbiomedpdf
+08) omicscprpdf @REM R-Suite
+09) omicsdpcpdf
+10) omicsejbipdf
+11) omicsscopemedpdf
+12) omicsfuturemedpf
+13) omicsgmjpdf
+14) omicsgmrpdf
+15) omicsgsrjpdf @REM R-Suite
+16) omicshilarispdf @REM R-Suite
+17) omicsijbiopdf
+18) omicsijmbspdf
+19) omicsijmrhspdf @REM R-Suite
+20) omicsimedpubpdf @REM R-Suite
+21) omicsiomcpdf @REM Manual
+22) omicsirjpdf
+23) omicsisjpdf @REM R-Suite
+24) omicsjbcrspdf
+25) omicsjfletpdf
+26) omicsjibcpdf
+27) omicsjocprpdf
+28) omicsjrmdspdf @REM R-Suite
+29) omicslexispdf
+30) omicslongdempdf @REM R-Suite
+31) omicsmibrochurepdf
+32) omicsnpypdf
+33) omicspdf @REM R-Suite
+34) omicsprimescholarspdf @REM Manual
+35) omicspulsuspdf @REM R-Suite
+36) omicsrroijpdf @REM Manual
+37) omicsscholarsresearchpdf
+38) omicsscitechpdf @REM R-Suite
+39) omicsspeabspdf
+40) omicstestingpdf
+41) omicstinnituspdf
+42) omicstosocialpdf
+43) omicstsipdf
+44) omicswalshmmpdf @REM R-Suite
+45) omicsscopemedpdf
+46) omicsajpmphpdf (abstract)
+47) omicsajpmphEditpdf
+48) omicsitmedicalpdf
+49) omicsajpskypdf
+
+@REM Dita-OT(XML_Files) to PDF conversion cmd.
+
+ant -Dargs.input= E:\Projects\r-suite\DITA\XML_Files\omicscprpdf\AAJCP-24-152606_Q1\AAJCP-24-152606_Q1.ditamap -Doutput.dir=E:\Projects\r-suite\DITA\PDF_Files\omicscprpdf -Dretain.topic.fo=yes -Dclean.temp=no -Dtranstype=omicscprpdf
+
+ant -Dargs.input= E:\Projects\r-suite\DITA\XML_Files\omicswalshmmpdf\BLM-24-27847\BLM-24-27847.ditamap -Doutput.dir=E:\Projects\r-suite\DITA\PDF_Files\omicswalshmmpdf -Dretain.topic.fo=yes -Dclean.temp=no -Dtranstype=omicswalshmmpdf
+
+ant -Dargs.input= E:\Projects\r-suite\DITA\XML_Files\omicslongdempdf\JPPT-24-35885_Q1\JPPT-24-35885_Q1.ditamap -Doutput.dir=E:\Projects\r-suite\DITA\PDF_Files\omicslongdempdf -Dretain.topic.fo=yes -Dclean.temp=no -Dtranstype=omicslongdempdf
+
+ant -Dargs.input= E:\Projects\r-suite\DITA\XML_Files\omicsscitechpdf\DHCR-24-160261\DHCR-24-160261.ditamap -Doutput.dir=E:\Projects\r-suite\DITA\PDF_Files\omicsscitechpdf -Dretain.topic.fo=yes -Dclean.temp=no -Dtranstype=omicsscitechpdf
+
+ant -Dargs.input= E:\Projects\r-suite\DITA\XML_Files\omicspdf\JIDT-24-153320_Q1\JIDT-24-153320_Q1.ditamap -Doutput.dir=E:\Projects\r-suite\DITA\PDF_Files\omicspdf -Dretain.topic.fo=yes -Dclean.temp=no -Dtranstype=omicspdf
+
+ant -Dargs.input= E:\Projects\r-suite\DITA\XML_Files\omicsimedpubpdf\IPCTN-25-20275-Q1\IPCTN-25-20275-Q1.ditamap -Doutput.dir=E:\Projects\r-suite\DITA\PDF_Files\omicsimedpubpdf -Dretain.topic.fo=yes -Dclean.temp=no -Dtranstype=omicsimedpubpdf
+
+ant -Dargs.input= E:\Projects\r-suite\DITA\XML_Files\omicsalliedacademiespdf\RNAI-24-1525911\RNAI-24-1525911.ditamap -Doutput.dir=E:\Projects\r-suite\DITA\PDF_Files\omicsalliedacademiespdf -Dretain.topic.fo=yes -Dclean.temp=no -Dtranstype=omicsalliedacademiespdf
+
+
+Work flow folder's Path
+-----------------------
+-> Word Folder Path : E:\Projects\r-suite\DITA\Word_Files
+-> XML Folder Path  : E:\Projects\r-suite\DITA\XML_Files
+-> PDF Folder Path  : E:\Projects\r-suite\DITA\PDF_Files
+
+@REM Download Dita-OT
+Dita-OT download link https://www.dita-ot.org/download
+
+
+@REM Online JPG to JPEG Converter Link
+https://onlineconvertfree.com/convert-format/jpg-to-jpeg/
+
+
+@REM Oxygen LICENSE KEY
+<//////////////// Oxygen Key ////////////////////////>
+
+------START-LICENSE-KEY------
+
+Registration_Name=Srinubabu Gedela
+
+Company=OMICS Group Inc.
+
+Category=Professional
+
+Component=XML-Editor, XSLT-Debugger, Saxon-SA
+
+Version=17
+
+Number_of_Licenses=1
+
+Date=05-07-2015
+
+Maintenance=0
+
+SGN=MCwCFHO2RIqw3/EONI3lzFYbi4zjfZI/AhQwi9t9CdF+JLBMnrNUa048arInlw\=\=
+
+-------END-LICENSE-KEY-------
+
+<//////////////// Oxygen Key ////////////////////////>
+
+@REM Mobile responsive site link
+Mobile responsive site link : https://www.ijpsonline.com/
+
+@REM HTML conversion(DITA-OT to HTML)
+ant -Dargs.input= E:\Projects\r-suite\DITA\XML_Files\omicsimedpubpdf\IPJCND-22-7848\IPJCND-22-7848.ditamap -Doutput.dir=E:\Projects\r-suite\DITA\Others\omicsimedpubpdf\IPJCND-22-7848 -Dretain.topic.fo=yes -Dclean.temp=no -Dtranstype=xhtml
+
+@REM CKEDITOR Link
+https://ckeditor.com/docs/ckeditor4/latest/examples/sourcearea.html
+
+@REM All PDF's Passwords
+Kindly check the below passwords for all PDF editing passwords.
+
+1)	Omics@123
+2)	Pulsus@786
+3)	@mic$999
+4)	R$uite@000
+
+@REM Password will give to PDF's
+Kindly give passwords to PDF's in all Brands From now on.
+
+	Open PDF File and go to click on Protect option in Adobe Acrobat Pro DC.
+	And select Protect Using Password.
+	Selecting Editing then type passwords like ("Omics@123","Pulsus@786","@mic$999","R$uite@000") any one.
+	And finally click on Apply Button.
+
+Note: Don't give to more passwords only the above passwords sufficient for all PDF's
+
+@REM Manuscript login credentials.
+URL : https://pulsusgroup.org/manuscript-tracking/main/login
+Username : rsuiteteam
+Password  : R$uit@2022
+
+@REM Project source code path
+Kindly find the below network path is main R-Suite complete KT(Knowledge Transfer) source code and reference also.
+
+Path: \\R-suite
+
+Networks info: Ipconfig
+Username: R-suite team
+PSWD: Longdom#999
+
+@REM Adobe Acrobat Pro DC Software
+As the work load is heavy we require one Adobe Acrobat Pro DC Software access.
+
+I am adding plan details below please check it once…
+Description of Plan      	 Amount of Plan
+Annual Plan Paid Monthly 	₹ 1,196.52/mo. Inclusive of GST
+Annual Plan Prepaid      	₹ 14,358.24/yr. Inclusive of GST
+Monthly Plan             	₹ 1,995.38/mo. Inclusive of GST
+
+Kindly verify and check this link : https://acrobat.adobe.com/in/en/acrobat/pricing.html
+
+@REM Adobe Acrobat Pro DC Software access
+
+1) collections@scholarcentral.org
+	Pwd : Omics$123
+	Members : Sasikala, Poorna
+	Internal Mail ID's : sasikala_b@omicsgroup.co.in
+	Internal Mail ID's : poornavardhani@omicsgroup.co.in
+
+2) collections@imedpub.org
+	Pwd : Omics$123
+	Members : Swapna, Aravind
+	Internal Mail ID's : swapna_h@omicsgroup.co.in
+	Internal Mail ID's : aravind_v@omicsgroup.co.in
+
+3) collections@abacademies.org
+	Pwd : Moulika@321
+	Members: Geethika
+	Internal Mail ID's : geethika_t@omicsgroup.co.in
+	Internal Mail ID's : 
+
+R-Suite Network Path: \\R-suite
+
+@REM System PSWD
+
+Swapna: Longdom#999
+Sasi: Longdom%999
+Geethika: Longdom#999
+Poorna: Longdom#999
+Aravind: 9490494266
+
+Outlook: 
+
+swapna_h: Omics#123
+sasikala_b: Omics#123
+aravind_v: Omics@123
+poornavardhani: Omics#123
+geethika_t: Omics@123
+
+For all Networks
+
+\\journals-share
+Username: Omics
+PSWD: Pulsus@123
+
